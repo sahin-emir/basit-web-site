@@ -1,0 +1,156 @@
+body{
+    background-color: cornsilk;
+
+    background-attachment: fixed;
+}
+.resim{
+    -webkit-overflow-scrolling: touch;
+}
+.ana_div{
+    width: 960px;
+    margin: 30px auto;
+    border: solid 1px #000000;
+    padding: 20px;
+    background-color: white;
+}
+.imglogo img {
+    width: 950px;
+    height: 280px;
+   border-radius: 20px;
+    
+}
+.menu{
+    margin-top: 10px;
+	background:#c11e1e ; 
+    opacity: 0.9;   
+    border-radius: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.menu ul li{
+    float:left;
+   background:#c11e1e;
+}
+.menu ul li a{
+     color: white;
+    text-decoration: none;
+    padding:10px;
+    display: block;
+    font-size: 12px;
+    font-family: Arial;
+}
+.menu ul li a:hover{
+   background-color: #60b4e8;
+}
+
+.menu ul li ul{
+    margin:0;
+   padding:0;
+    display: none;
+    position:absolute;
+}
+
+.menu ul li:hover ul{
+   display: block;
+}
+
+.menu li ul li {
+   float:none;
+    white-space:nowrap;
+}
+.icerik_ust_div{
+    margin-top: 10px;   
+    border-bottom:1px dotted #666666;
+    font-size: 12px;
+    font-family: Arial;
+    text-align: justify;
+}
+.icerik_orta_div img{
+    width: 950px;
+    height: 205px;
+    float: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.icerik_sag_div a{
+    text-decoration: none;
+    color: darkcyans;
+}
+.kitapicerik_orta_div img{
+    width: 950px;
+    height: 485px;
+    float: auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.temizle{
+    clear: both;
+}
+.alt_div{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width:auto;
+    height:25px;
+    background-color: #c11e1e;
+    color: #c7c7c7;
+    font:bold 12px Comic sans MS;
+      border-radius: 20px;
+}
+.Markalar_div img{
+   
+     margin-left: 70px;
+     margin-top: 20px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    width:800px;
+    height: 550px;
+  
+}
+.Hakkimizda_div{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: cornsilk;
+    color: black;
+    font:italic 14px Comic sans MS;
+}
+.iletişimalt_div{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: dimgray;
+    font:bold 14px Comic sans MS;
+
+}
+.hr{
+     
+   opacity: 0.9;  
+    }
+.h1{
+     color:darkcyan;
+	font:bold 22px Century Gothic;
+	border-bottom:5px solid red;
+    
+    
+}
+
+h2{
+     text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: auto
+    height: 100px;
+    background-color:#4380be;
+    color:cornsilk;
+    font:bold 14px Comic sans MS;
+}
+
